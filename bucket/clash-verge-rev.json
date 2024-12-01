@@ -16,12 +16,8 @@
     "pre_install": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\uninst*\" -Force -Recurse",
     "installer": {
         "script": [
-            "ensure \"$persist_dir\" | Out-Null",
-            "New-Item \"$env:USERPROFILE\\.config\\clash-verge\" -ItemType Junction -Target \"$persist_dir\" | Out-Null"
+            "ensure \"$persist_dir\" | Out-Null"
         ]
-    },
-    "uninstaller": {
-        "script": "Remove-Item \"$env:USERPROFILE\\.config\\clash-verge\" -Recurse -Force -ErrorAction 'SilentlyContinue'"
     },
     "shortcuts": [
         [
@@ -29,6 +25,7 @@
             "Clash Verge"
         ]
     ],
+	"persist": ".config",
     "checkver": "github",
     "autoupdate": {
         "architecture": {
