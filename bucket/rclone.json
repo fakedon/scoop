@@ -5,19 +5,19 @@
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/wiserain/rclone/releases/download/v$version/rclone-v$version-windows-amd64.zip",
+            "url": "https://github.com/wiserain/rclone/releases/download/v1.68.2-202/rclone-v1.68.2-202-windows-amd64.zip",
             "hash": "c2ba717a8423c0397a513548bff8cc1e4c141377bca19061809c2b23318bbef1",
-            "extract_dir": "rclone-v$version-windows-amd64"
+            "extract_dir": "rclone-v1.68.2-202-windows-amd64"
         },
         "32bit": {
-            "url": "https://github.com/wiserain/rclone/releases/download/v$version/rclone-v$version-windows-386.zip",
+            "url": "https://github.com/wiserain/rclone/releases/download/v1.68.2-202/rclone-v1.68.2-202-windows-386.zip",
             "hash": "7d1873bb187f5c4ab7ee7a38f99ec5141da3ad04a3664c40a2e71505d1d7a9b9",
-            "extract_dir": "rclone-v$version-windows-386"
+            "extract_dir": "rclone-v1.68.2-202-windows-386"
         },
         "arm64": {
-            "url": "https://github.com/wiserain/rclone/releases/download/v$version/rclone-v$version-windows-arm64.zip",
+            "url": "https://github.com/wiserain/rclone/releases/download/v1.68.2-202/rclone-v1.68.2-202-windows-arm64.zip",
             "hash": "498daba68f761fbd3cdfcfe05c216691a60b15dffa3ca360cc0e63ee00fcb60e",
-            "extract_dir": "rclone-v$version-windows-arm64"
+            "extract_dir": "rclone-v1.68.2-202-windows-arm64"
         }
     },
     "pre_install": [
