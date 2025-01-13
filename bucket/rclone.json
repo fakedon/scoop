@@ -1,23 +1,23 @@
 {
-    "version": "1.68.2-206",
+    "version": "1.69.0-214",
     "description": "Sync files and directories to and from multiple cloud / FTP / HTTP hosters.",
     "homepage": "https://rclone.org",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/wiserain/rclone/releases/download/v1.68.2-206/rclone-v1.68.2-206-windows-amd64.zip",
-            "hash": "eab9be6ba1565b047f08174e8d22ff668897e794980113392e8d1dc08664d0cd",
-            "extract_dir": "rclone-v1.68.2-206-windows-amd64"
+            "url": "https://github.com/wiserain/rclone/releases/download/v1.69.0-214/rclone-v1.69.0-214-windows-amd64.zip",
+            "hash": "196cbf9c463a0b256b77c159294f950dfcd65870185d456f252826d3dbb977bb",
+            "extract_dir": "rclone-v1.69.0-214-windows-amd64"
         },
         "32bit": {
-            "url": "https://github.com/wiserain/rclone/releases/download/v1.68.2-206/rclone-v1.68.2-206-windows-386.zip",
-            "hash": "29fd1c344d3a4c5c6236620e03ac9487589bd6910a584909f8786e5d7868231f",
-            "extract_dir": "rclone-v1.68.2-206-windows-386"
+            "url": "https://github.com/wiserain/rclone/releases/download/v1.69.0-214/rclone-v1.69.0-214-windows-386.zip",
+            "hash": "dfccd45b6ec2661175de752d60b34c5894d33e3dd13feaa34c1fbbcec8aac1ec",
+            "extract_dir": "rclone-v1.69.0-214-windows-386"
         },
         "arm64": {
-            "url": "https://github.com/wiserain/rclone/releases/download/v1.68.2-206/rclone-v1.68.2-206-windows-arm64.zip",
-            "hash": "7f554bea83ecb71059e8349cabbe08fcab77055d4b51a83eef8f3aeba91e01c5",
-            "extract_dir": "rclone-v1.68.2-206-windows-arm64"
+            "url": "https://github.com/wiserain/rclone/releases/download/v1.69.0-214/rclone-v1.69.0-214-windows-arm64.zip",
+            "hash": "2e72b56771619b245d570064055ca84223b757c3ab131df139c8715f7493ed81",
+            "extract_dir": "rclone-v1.69.0-214-windows-arm64"
         }
     },
     "pre_install": [
